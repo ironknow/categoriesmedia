@@ -1,0 +1,23 @@
+{
+    "name": "test/categoriesmedia",
+    "description": "categoriesmedia",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "catrgories media", "media"],
+    "version": "1.0.0",
+    "extra": {
+        "oxideshop": {
+            "target-directory": "test/categoriesmedia"
+        }
+    },
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "test\\CategoriesMedia\\": "../../../source/modules/test/categoriesmedia"
+        }
+    }
+}
